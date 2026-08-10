@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Newsreader } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { siteConfig } from "@/data/site";
 import "./globals.css";
 
@@ -31,7 +32,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${newsreader.variable} antialiased`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
