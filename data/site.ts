@@ -50,7 +50,7 @@ export const siteConfig: SiteConfig = {
 
   intro: [
     "I'm 20 and studied Computer Science and AI at Penn.",
-    "I'm extremely curious about how consumers and enterprises behave with rapid advancements in technology.",
+    "I'm extremely curious about how consumers and enterprises behave to rapid advancements in technology.",
     "I'm passionate about all aspects of investing, pairing extremely talented people to exceptional companies and discovering new and exciting founders and startups.",
     "Scrappiness. Hunger. Curiosity. Are principles I shape my life around.",
     "If you’re building a company, looking to recruit great talent from top universities, exploring your next startup, or just want intros to interesting people - let's chat!",
