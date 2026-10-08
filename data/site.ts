@@ -66,12 +66,6 @@ export const siteConfig: SiteConfig = {
 
   experience: [
     {
-      company: "TBD",
-      role: "More to come.",
-      dates: "",
-      description: "",
-    },
-    {
       company: "Mido Capital",
       role: "Investor",
       dates: "2026 - Present",
