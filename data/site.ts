@@ -5,6 +5,7 @@ export type ExperienceItem = {
   role: string;
   dates: string;
   description?: string;
+  link?: { label: string; url: string };
 };
 
 type SiteConfig = {
@@ -51,7 +52,7 @@ export const siteConfig: SiteConfig = {
   intro: [
     "I'm 20 and studied Computer Science and AI at Penn.",
     "I'm extremely curious about how consumers and enterprises behave to rapid advancements in technology.",
-    "I'm passionate about all aspects of investing, pairing extremely talented people to exceptional companies and discovering new and exciting founders and startups.",
+    "I'm passionate about all aspects of investing, pairing incredibly talented people to exceptional companies and discovering new and exciting founders and startups.",
     "Scrappiness. Hunger. Curiosity. Are principles I shape my life around.",
     "If you’re building a company, looking to recruit great talent from top universities, exploring your next startup, or just want intros to interesting people - let's chat!",
   ],
@@ -69,6 +70,16 @@ export const siteConfig: SiteConfig = {
       role: "More to come.",
       dates: "",
       description: "",
+    },
+    {
+      company: "Mido Capital",
+      role: "Investor",
+      dates: "2026 - Present",
+      description: "Bryan Kim's debut fund.",
+      link: {
+        label: "WSJ",
+        url: "https://www.wsj.com/pro/venture-capital/former-andreessen-horowitz-partner-targets-100-million-new-fund-29e24438",
+      },
     },
     {
       company: "Blue Owl Capital",
