@@ -68,7 +68,7 @@ export const siteConfig: SiteConfig = {
     {
       company: "Mido Capital",
       role: "Investor",
-      dates: "2026 - Present",
+      dates: "2026 -",
       description: "Bryan Kim's debut fund.",
       link: {
         label: "WSJ",
