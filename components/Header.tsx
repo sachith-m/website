@@ -9,7 +9,7 @@ export default function Header() {
         {siteConfig.name}
       </Link>
       <nav aria-label="Section navigation">
-        <ul className="flex items-baseline gap-5 text-[14px] text-muted">
+        <ul className="flex flex-wrap items-baseline gap-x-5 gap-y-2 text-[14px] text-muted">
           {sections.map((item) => (
             <li key={item.href}>
               <Link

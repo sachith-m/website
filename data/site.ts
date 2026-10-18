@@ -8,6 +8,14 @@ export type ExperienceItem = {
   link?: { label: string; url: string };
 };
 
+export type AngelInvestment = {
+  company: string;
+  url: string;
+  round: string;
+  year: string;
+  description?: string;
+};
+
 type SiteConfig = {
   name: string;
   title: string;
@@ -20,6 +28,7 @@ type SiteConfig = {
     email: string;
   };
   experience: ExperienceItem[];
+  angelInvestments: AngelInvestment[];
   writing: WritingItem[];
   reading: ReadingItem[];
 };
@@ -100,6 +109,17 @@ export const siteConfig: SiteConfig = {
       dates: "2024 - 2024",
       description: "Acquired for $XXX million.",
 
+    },
+  ],
+
+  // Newest first.
+  angelInvestments: [
+    {
+      company: "Vela Energy",
+      url: "https://www.velaenergy.ai/",
+      round: "Seed",
+      year: "2026",
+      description: "The AI workforce for power delivery.",
     },
   ],
 
