@@ -4,7 +4,7 @@ import AngelInvestments from "@/components/AngelInvestments";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Angel Investments",
+  title: "Investments",
   description: "Companies Sachith Mankala has angel invested in.",
 };
 
