@@ -4,6 +4,9 @@ export default function AngelInvestments() {
   return (
     <section className="pt-16 sm:pt-24">
       <h1 className="text-2xl sm:text-3xl text-foreground">Angel Investments</h1>
+      <p className="mt-3 text-[15px] leading-relaxed text-foreground/60">
+        Personal investing outside of work.
+      </p>
       <ul className="mt-8 space-y-6">
         {siteConfig.angelInvestments.map((item) => (
           <li key={item.company}>
