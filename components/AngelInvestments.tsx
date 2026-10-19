@@ -5,7 +5,7 @@ export default function AngelInvestments() {
     <section className="pt-16 sm:pt-24">
       <h1 className="text-2xl sm:text-3xl text-foreground">Investments</h1>
       <p className="mt-3 text-[15px] leading-relaxed text-foreground/60">
-        In my spare time, I personally invest in companies and founders I'm excited about.
+        In my spare time, I personally angel invest in companies and founders I'm excited about.
       </p>
       <ul className="mt-8 space-y-6">
         {siteConfig.angelInvestments.map((item) => (
