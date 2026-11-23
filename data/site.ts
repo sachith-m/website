@@ -115,6 +115,13 @@ export const siteConfig: SiteConfig = {
   // Newest first.
   angelInvestments: [
     {
+      company: "ernd",
+      url: "https://ernd.ai/",
+      round: "Seed",
+      year: "2026",
+      description: "The credit card for the AI stack.",
+    },
+    {
       company: "Vela Energy",
       url: "https://www.velaenergy.ai/",
       round: "Seed",
